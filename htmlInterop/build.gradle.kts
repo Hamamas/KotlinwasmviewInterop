@@ -10,6 +10,13 @@ kotlin {
     @OptIn(ExperimentalWasmDsl::class)
     wasmJs {
         moduleName = "htmlInterop"
+        browser()
+        binaries.library()
+    }
+
+    js(IR) {
+        moduleName = "htmlInterop"
+        browser()
         binaries.library()
     }
     
