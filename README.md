@@ -23,7 +23,7 @@ How to install
              implementation("com.github.Hamamas:Kotlin-Wasm-Html-Interop:Version")
          }
 
-3. Add this to your **[index.html](composeApp/src/wasmJsMain/resources/index.html)**
+3. Add this to your **[index.html](sample/src/wasmJsMain/resources/index.html)**
     
     `<div id="components"></div>`
 
